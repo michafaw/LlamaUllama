@@ -5,11 +5,46 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprRampLeft</sprite>
+    <sprite>sprites\sprRampRight</sprite>
+    <sprite>sprites\sprCircleIndicator</sprite>
+    <sprite>sprites\sprBall</sprite>
+    <sprite>sprites\sprBallShadow</sprite>
+    <sprite>sprites\sprCollisionWall</sprite>
+    <sprite>sprites\sprCollisionWallWide</sprite>
+    <sprite>sprites\sprCollisionWallTall</sprite>
+    <sprite>sprites\sprLlama</sprite>
+    <sprite>sprites\sprLlamaRed</sprite>
+    <sprite>sprites\sprLlamaBlue</sprite>
+    <sprite>sprites\sprGoal</sprite>
+  </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\bgCourt</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scrResetBall.gml</script>
+    <script>scripts\scrResetPlayers.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\objBall</object>
+    <object>objects\objRampLeft</object>
+    <object>objects\objRampRight</object>
+    <object>objects\objTitleControl</object>
+    <object>objects\objCollisionWall</object>
+    <object>objects\objCollisionWallWide</object>
+    <object>objects\objCollisionWallTall</object>
+    <object>objects\objPlayer</object>
+    <object>objects\objPlayerLeft</object>
+    <object>objects\objPlayerRight</object>
+    <object>objects\objGoalLeft</object>
+    <object>objects\objGoalRight</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\roomTitle</room>
+    <room>rooms\roomPlayfield</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
